@@ -9,7 +9,7 @@ export default class MyApp extends App {
 	}
 
 	async componentDidMount(prevProps) {
-    await branchLoad();
+    		await branchLoad();
 		await branchInit();
 	}
 
